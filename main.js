@@ -44,8 +44,8 @@ function generate(){
 
     document.getElementById('inp').innerHTML="";
     let i;
-    var a1=[4,1,3,7];
-    var m1=[6,5,7,11]
+    var a1=[4,1,3,13];
+    var m1=[6,5,7,17]
     for(i=0;i<n;i++){
         if(i<4){generateElem(a1[i],m1[i]);}
         else{
